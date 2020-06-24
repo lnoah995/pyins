@@ -1,7 +1,7 @@
 """Earth geometry and gravity models."""
 import numpy as np
-from . import dcm
-from . util import mv_prod
+from pyins import dcm
+from util import mv_prod
 
 
 #: Rotation rate of Earth in rad/s.
