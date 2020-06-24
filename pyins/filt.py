@@ -3,7 +3,7 @@ from collections import OrderedDict
 import numpy as np
 import pandas as pd
 from scipy.linalg import cholesky, cho_solve, solve_triangular
-from . import dcm, earth, util
+from pyins import dcm, earth, util
 
 
 N_BASE_STATES = 7
