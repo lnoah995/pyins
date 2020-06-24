@@ -4,7 +4,7 @@ import pandas as pd
 from scipy.interpolate import CubicSpline, PPoly
 from scipy.linalg import solve_banded
 from scipy.spatial.transform import Rotation, RotationSpline
-from . import dcm, earth, transform, util
+from pyins import dcm, earth, transform, util
 
 
 #: Degrees per hour to radians per second (SI units)
