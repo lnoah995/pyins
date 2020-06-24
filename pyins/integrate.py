@@ -1,9 +1,9 @@
 """Compute a navigation solution by integration of inertial readings."""
 import numpy as np
 import pandas as pd
-from . import earth
-from . import dcm
-from ._integrate import integrate_fast, integrate_fast_stationary
+from pyins import earth
+from pyins import dcm
+from _integrate import integrate_fast, integrate_fast_stationary
 
 
 def coning_sculling(gyro, accel, order=1):
