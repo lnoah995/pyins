@@ -2,9 +2,9 @@
 from warnings import warn
 import numpy as np
 from scipy.linalg import svd, det
-from . import earth
-from . import dcm
-from . import util
+from pyins import earth
+from pyins import dcm
+from pyins import util
 
 
 def align_wahba(dt, theta, dv, lat, VE=None, VN=None):
