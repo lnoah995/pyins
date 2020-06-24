@@ -1,6 +1,6 @@
 """Coordinate transformations."""
 import numpy as np
-from . import earth
+from pyins import earth
 
 
 def lla_to_ecef(lat, lon, alt=0):
